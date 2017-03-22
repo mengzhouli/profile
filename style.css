@@ -1,5 +1,5 @@
 body {
-  background-color: #EBEBEB;
+  background-image: linear-gradient(0deg, rgba(230,230,230, 0.9) 10%, rgba(46,46,46,0) 80%), url("https://unsplash.it/2000/2000?image=1053");
   font-family: "Open Sans Condensed", sans-serif;
   color: #672D63;
   font-size: 20px;
@@ -8,18 +8,19 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#C100F8;
+  color:rgba(82, 64, 49, 0.9);
   font-family: "Raleway", sans-serif;
 }
 
 a {
-  color: red;
+  color: rgba(102, 140, 122, 0.8);
   text-decoration: none;
+
 
 }
 
 a:hover {
-  color: blue;
+  color: rgba(113, 103, 86, 0.8);
 }
 
 div {
@@ -77,4 +78,27 @@ img {
 
 .bottom-padding-more {
   padding-bottom: 30px;
+}
+/* Here goes your CSS */
+
+#sidebar {
+  position: fixed;
+  width: 150px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-image: linear-gradient(140deg, rgba(30,30,30, 0.8) 10%, rgba(46,46,46,0) 80%), url("https://unsplash.it/200/1000?image=1061");
+
+
+}
+
+#content {
+  margin-left: 100px;
+
+}
+
+#sidebar > ul > li {
+  list-style: none;
+  padding: 10px 30px 10px 0px;
+  font-size: 30px;
 }
