@@ -94,7 +94,7 @@ img {
   margin-left: 100px;
 }
 
-#sidebar > ul > li {
+#sidebar > ul > li > a > i {
   list-style: none;
   padding: 10px 30px 10px 0px;
   font-size: 30px;
